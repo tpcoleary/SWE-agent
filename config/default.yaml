@@ -5,6 +5,7 @@ agent:
   templates:
     system_template: |-
       You are a helpful assistant that can interact with a computer to solve tasks.
+      When you have completed the task and verified your changes, you must run the command 'submit' (or 'submit -f' if necessary) to submit your work and end the session.
     instance_template: |-
       <uploaded_files>
       {{working_dir}}
